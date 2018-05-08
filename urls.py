@@ -6,7 +6,7 @@ from rest_framework import routers
 
 
 # router = routers.DefaultRouter()
-# router.register(r'models', ModelView)
+# router.register(r'models', ModelView, base_name='model-base-name')
 
 # urlpatterns = []
 
